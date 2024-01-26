@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="navContainer">
+        <nav >
             <div class="left">Aryan's Portfolio</div>
             <div class="right">
                 <ul class="navs">
-                    <li><a href="">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#abtme">About</a></li>
                     <li><a href="#works">Work</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#skills">Skills</a></li> <!-- Updated href value for "Skills" -->
+                    <li><a href="#contact">Contact</a></li> <!-- Updated href value for "Contact" -->
                 </ul>
+            
             </div>
             <div class="socials">
                 <ul>
@@ -44,16 +45,16 @@
             </div>
         </section>
 
-        <hr>
+        <hr id="abtme">
 
-        <section class="secondsection" id="abtme">
+        <section class="secondsection">
             <h1 id="abth">ABOUT ME</h1>
 
             <div class="aboutme">
                 <div class="leftabt">
-                    <p>Greetings! I am in my final year pursuing a Bachelor of Technology in Computer Science Engineering. My enthusiasm lies in utilizing my skills and knowledge to create inventive solutions for complex problems. Throughout my computer science journey, I've been actively involved in diverse projects, acquiring experience across various technologies and programming languages. The prospect of continuous learning and development is something that excites me as I set out on my career path in the tech industry.</p>
+                    <p>Greetings! I am a final year student pursuing Bachelor of Technology in Computer Science Engineering. My enthusiasm lies in utilizing my skills and knowledge to create inventive solutions for complex problems. Throughout my computer science journey, I've been actively involved in diverse projects, acquiring experience across various technologies and programming languages. The prospect of continuous learning and development is something that excites me as I set out on my career path in the tech industry.</p>
 
-                    <button class="hire"><a href="" id="hirebtn"></a>Hire me</button>
+                    <button class="hire"><a href="https://www.linkedin.com/in/aryan-thapa/" id="hirebtn">Hire me</a></button>
                 </div>
 
                 <div class="rightabt">
@@ -63,7 +64,7 @@
 
                     <p>My technical skills combined with my passion for problem-solving make me a valuable asset to any team. I am able to quickly learn new technologies and am always eager to take on new challenges. I am confident that I have the skills and the drive to succeed in the tech industry.</p>
 
-                    <button class="abtbtn"><a href="" id="abtbtnn"></a>Download CV</button>
+                    <button class="abtbtn"><a href="" id="abtbtnn">Download CV</a></button>
                 </div>
             </div>
         </section>
@@ -76,12 +77,69 @@
             <div class="workcont">
                 <div class="pastexp">
                     <h2>Past Experience</h2>
+                    <div class="vertical">
+                        <div class="first">
+                            <div class="orgcont">
+                                <img src="celebal.png" alt="" class="orgimg">
+                            </div>
+                            <div class="horizontal"></div>
+                            <div class="desc">
+                                <p>Celebal Technologies</p>
+                                <p class="duration">June 2023-August 2023</p>
+                                <p>Data Science Intern</p>
+                            </div>
+                        </div>
+                        <div class="second">
+                            <div class="orgcont">
+                                <img src="humankind.jpg" alt="" class="orgimg">
+                            </div>
+                            <div class="horizontal"></div>
+                            <div class="desc">
+                                <p>Humankind NGO</p>
+                                <p class="duration">June 2021-July 2021</p>
+                                <p>Content Management Intern</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="projects">
                     <h2>Projects</h2>
+
+                    <div class="projectcontainer">
+                        <div class="pcontainer">
+                            <h4>Stock Price Prediction</h4>
+                            <div class="project"><a href="https://huggingface.co/spaces/aryan-thapa/Stock_Price_Prediction"><img src="stockprice.jpg" alt="" class="prjimg"></a></div>
+                            <div class="overlay">
+                                <span class="prjview">Click to view project</span>
+                                <button class="github"><a href="https://github.com/Aryan-Thapa/Stock-Price-Prediction">Github</a></button>
+                            </div>
+                        </div>
+                        <div class="pcontainer">
+                            <h4>Sorting Visualizer</h4>
+                            <div class="project"><a href="https://aryan-thapa.github.io/Sorting-Visualizer/"><img src="sorting.png" alt="" class="prjimg"></a></div>
+                            <div class="overlay">
+                                <span class="prjview">Click to view project</span>
+                                <button class="github"><a href="https://github.com/Aryan-Thapa/Sorting-Visualizer">Github</a></button>
+                            </div>
+                        </div>
+                        <div class="pcontainer">
+                            <h4>Personal Portfolio</h4>
+                            <div class="project"><a href=""><img src="Portfolio.jpg" alt="" class="prjimg"></a></div>
+                            <div class="overlay">
+                                <span class="prjview">Click to view project</span>
+                                <button class="github"><a href="https://github.com/Aryan-Thapa/Portfolio">Github</a></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <hr id="skills">
+
+        <section class="skillsection">
+            <h1 class="skillheading">Skills</h1>
         </section>
 
 

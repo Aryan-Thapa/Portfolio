@@ -10,13 +10,18 @@
 body{
     background-color: #002244;
 }
+.navContainer{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #003153;
+}
 nav{
     /* padding:0 10rem; */
     height: 4.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #003153;
     padding: 0rem 9rem;
     /* padding: 0.5rem; */
 }
@@ -34,6 +39,7 @@ nav{
     font-size: 1.2rem;
     color: rgb(167, 94, 235);
 }
+
 .left{
     font-size: 1.2rem;
     font-weight: 530;
@@ -42,12 +48,11 @@ nav{
     font-weight: 600;
 }
 .firstsection{
-    margin: 8rem 4rem 0 0rem;
     display: flex;
     justify-content: space-around;
 
     /* border: solid black; */
-    height: 25rem;
+    height: 88vh;
     align-items: center;
 }
 .leftcont{
@@ -106,30 +111,34 @@ nav{
     width: 2rem;
 }
 
-.secondsection{
+.secondsection {
     max-width: 80vw;
     margin: auto;
+    /* animation: fadeIn ease-in-out 500ms; */
+    transition: opacity 0.5s ease-in-out, transform 2s ease-in; /* Corrected 'translate' to 'transform' */
 }
 
+
+
 hr {
-    margin: 7rem 10rem 1rem 10rem;
+    margin: 0rem 10rem 4rem 10rem;
     border: 0;
     background: rgb(178, 178, 235);
     height: 0.2rem;
 }
 
 .aboutme{
-    margin: 2rem 0 0 0;
+    margin: 1rem 0 0 0;
     display: flex;
     width: 100%;
     gap: 4rem;
 }
 #abth{
-    margin: 3.2rem 0 0 0;
+    margin: 5rem 0 0 0;
 }
 .leftabt {
     width: 150rem;
-    font-size: x-large;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -145,9 +154,9 @@ hr {
 }
 .hire{
     padding: 0.69rem;
-    background-color: azure;
-    color: #222;
-    border: solid #222 2px;
+    background-color: #222;
+    /* color: #222; */
+    border: solid white 2px;
     border-radius: 1rem;
     font-size: large;
     font-weight: bold;
@@ -155,7 +164,7 @@ hr {
 }
 .hire:hover{
     cursor: pointer;
-    background-color: #222;
+    background-color:#72A0C1;
     color: azure;
     border: solid azure 2px;
 }
@@ -183,6 +192,7 @@ hr {
 }
 
 .worksection{
+    padding-top: 2rem;
     max-width: 80vw;
     margin: auto;
 }
@@ -190,6 +200,113 @@ hr {
     margin: 3.2rem 0 0 0;
 }
 .workcont {
+    padding: 1.5rem;
     width: auto;
     display: flex;
+    gap: 2rem;
+}
+.pastexp{
+    width: 25rem;
+}
+.first{
+    width: 20rem;
+}
+.second{
+    width: 20rem;
+}
+.vertical{
+    display: flex;
+    border: solid azure 1px;
+    height: 30rem;
+    width: 1px;
+    margin: 15px 0 0 36px;
+    gap: 3rem;
+    justify-content: center;
+    flex-direction: column;
+}
+.horizontal{
+    border: solid 1px azure;
+    height: 1px;
+    width: 10rem;
+}
+.orgcont {
+    margin: 0px 0px 8px 17px;
+    height: 3.3rem;
+    width: 6rem;
+    overflow: hidden;
+    border-radius:8px;
+    object-fit: contain;
+}
+
+.orgimg {
+    height: 3.3rem;
+    width: 6.3rem;
+}
+.desc{
+    padding: 1rem;
+}
+.projects {
+    text-align: center;
+    width: 70rem;
+}
+.projectcontainer{
+    border: solid 1px;
+    border-radius: 15px;
+    /* padding: 1rem; */
+    margin: 13px -2px 0 0;
+    height: 85%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.project {
+    margin: 1.2rem;
+    width: 14rem;
+    height: 18rem;
+    background-color: cadetblue;
+    border: solid 2px white;
+    border-radius: 12px;
+    object-fit:fill;
+    overflow: hidden;
+    transition: all 0.25s ease-in;
+    position: relative;
+}
+
+.project:hover{
+    cursor: pointer;
+    scale: 1.05;
+}
+.pcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prjimg{
+    height: 20rem;
+}
+.prjview{
+    color: rgb(168, 165, 165);
+    font-size: small;
+}
+.github {
+    background-color:#003153;
+    padding: 5px;
+    border: solid 0.5px white;
+    margin: 0 0px 0px 10px;
+    border-radius: 5px;
+}
+.github:hover {
+    cursor: pointer;
+    color: #003153;
+    background-color: white;
+}
+.github:hover a{
+    color: #003153;
+    background-color: white;
+}
+
+.skillsection{
+    padding-top: 2rem;
+    max-width: 80vw;
+    margin: auto;
 }

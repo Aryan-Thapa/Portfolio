@@ -1,0 +1,31 @@
+/* You are given an m x n grid where each cell can have one of three values:
+0 representing an empty cell,
+1 representing a non virus infected system, or
+2 representing a virus infected system.
+Every minute, any non virus system that is connected to any 4-directionally virus infected system becomes virus infected system.
+Return the minimum number of minutes that must elapse so that all system become virus infected.
+Input 1:
+[[2,1,1],
+ [1,1,0],
+ [0,1,1]]
+Output: 4
+Explaination:
+1st min   2nd min   3rd min   4th min
+2 2 1      2 2 2     2 2 2     2 2 2
+2 1 0      2 2 0     2 2 0     2 2 0
+0 1 1      0 1 1     0 2 1     0 2 2
+
+Input 2:
+[[2, 1, 1],
+ [0, 0, 0],
+ [1, 1, 1]]
+Output: -1 (No way to infect entire System)
+
+Input 3:
+[[2, 2],
+ [0, 0]]
+Output: 0 (Already entire system is infected)
+
+-----------START CODE FROM BELOW------------- */
+
+
