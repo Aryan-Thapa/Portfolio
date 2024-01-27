@@ -310,3 +310,119 @@ hr {
     max-width: 80vw;
     margin: auto;
 }
+.skillcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3.4rem;
+}
+.languages, .webdev, .technical{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skillimg{
+    height: 6rem;
+    width: 7rem;
+}
+.imgcont{
+    background:#2e628756;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 30px 0 0 0;
+    height: 25rem;
+    width: 20rem;
+    border-radius: 20px;
+    border: solid 3px;
+    transition: all 0.2s ease-in;
+}
+.imgcont:hover{
+    /* cursor: pointer; */
+    scale: 1.07;
+    box-shadow: 4px 4px 7px rgba(255, 255, 255, 0.427);
+    background-color: rgb(128, 235, 180);
+    /* border:solid orange 2px; */
+}
+.htmlcssjs{
+    height: 6rem;
+    width: 10rem;
+}
+.tskillimg {
+    height: 6.5rem;
+    width: 11rem;
+}
+.contactsection{
+    padding-top: 2rem;
+    max-width: 80vw;
+    margin: auto;
+}
+.contactcont{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.contbtn{
+    margin: 9px 0 9px 0px;
+    background-color:#222;
+    height: 2.7rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: solid white 2px;
+    transition: all 0.3s ease-in-out;
+}
+.contbtn:hover{
+    scale: 1.04;
+    background-color: rgba(221, 160, 221, 0.526);
+    box-shadow: 4px 4px 7px white;
+}
+.form{
+    height: auto;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 13px 0 0 0;
+}
+.formcont{
+    margin: 14px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.inputtext{
+    border-radius: 4px;
+    width: 25rem; 
+}
+textarea{
+    width: 25rem;
+    border-radius: 8px;
+    color: #222;
+}
+.formbtn{
+    background-color: #222;
+    border: solid 2px;
+    border-radius: 4px;
+    margin: 7px 0 0 0;
+    transition: all 0.3s ease-in-out;
+}
+.formbtn:hover{
+    background-color: white;
+    color: #222;
+    cursor: pointer;
+}
+.footersection{
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    background-color:#003153;
+}
