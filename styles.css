@@ -504,7 +504,7 @@ textarea:hover{
         height: 70%;
     }
     .prjimg{
-        height: 9rem;
+        height: 10rem;
     }
     .skillcontainer{
         grid-template-columns: repeat(1,1fr);
@@ -561,7 +561,10 @@ textarea:hover{
 
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:568px){
+    .navs{
+        gap: 1rem;
+    }
     .aboutme{
         flex-direction: column;
     }
@@ -575,8 +578,14 @@ textarea:hover{
     .projects{
         width: auto;
     }
+    .project{
+        margin: 0;
+    }
     .projectcontainer{
         width: 100%;
+    }
+    .pcontainer{
+        width: auto;
     }
     .pastexp{
         margin: 0;
