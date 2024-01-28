@@ -7,204 +7,206 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="navContainer">
-        <nav >
-            <div class="left">Aryan's Portfolio</div>
-            <div class="right">
-                <ul class="navs">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#abtme">About</a></li>
-                    <li><a href="#works">Work</a></li>
-                    <li><a href="#skills">Skills</a></li> <!-- Updated href value for "Skills" -->
-                    <li><a href="#contact">Contact</a></li> <!-- Updated href value for "Contact" -->
-                </ul>
-            
-            </div>
-            <div class="socials">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/aryan-thapa/"><img src="linkedin.png" alt="" class="scimg"></a></li>
-                    <li><a href="https://github.com/Aryan-Thapa"><img src="github.png" alt="" class="scimg"></a></li>
-                    <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Faryan_thapa_"><img src="twitter.png" alt="" class="scimg"></a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <section class="firstsection">
-            <div class="leftcont">
-                Hi, My name is <span class="purple">Aryan Thapa</span>
-                <div>and I am an </div>
-                <span id="element"></span>
-
-                <div class="scroll">Scroll for more</div>
-            </div>
-            
-            <div class="rightcont">
-                <img src="pfp.jpg" alt="" class="pfp">
-            </div>
-        </section>
-
-        <hr id="abtme">
-
-        <section class="secondsection">
-            <h1 id="abth">ABOUT ME</h1>
-
-            <div class="aboutme">
-                <div class="leftabt">
-                    <p>Greetings! I am a final year student pursuing Bachelor of Technology in Computer Science Engineering. My enthusiasm lies in utilizing my skills and knowledge to create inventive solutions for complex problems. Throughout my computer science journey, I've been actively involved in diverse projects, acquiring experience across various technologies and programming languages. The prospect of continuous learning and development is something that excites me as I set out on my career path in the tech industry.</p>
-
-                    <button class="hire"><a href="https://www.linkedin.com/in/aryan-thapa/" id="hirebtn">Hire me</a></button>
+    <div class="container">
+        <header class="navContainer">
+            <nav >
+                <div class="left">Aryan's Portfolio</div>
+                <div class="right">
+                    <ul class="navs">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#abtme">About</a></li>
+                        <li><a href="#works">Work</a></li>
+                        <li><a href="#skills">Skills</a></li> <!-- Updated href value for "Skills" -->
+                        <li><a href="#contact">Contact</a></li> <!-- Updated href value for "Contact" -->
+                    </ul>
+                
                 </div>
-
-                <div class="rightabt">
-                    <p>As a final year student in Bachelor of Technology in Computer Science Engineering, I have developed a strong foundation in several programming languages. I am proficient in C++ and have experience using these languages to develop and implement complex algorithms and data structures.</p>
-
-                    <p>In addition to my programming skills, I am knowledgeable in web development technologies such as HTML, CSS, and JavaScript. I also have experience working with databases using MySQL.</p>
-
-                    <p>My technical skills combined with my passion for problem-solving make me a valuable asset to any team. I am able to quickly learn new technologies and am always eager to take on new challenges. I am confident that I have the skills and the drive to succeed in the tech industry.</p>
-
-                    <button class="abtbtn"><a href="https://drive.google.com/file/d/1-73TWTxHwVCcFWC2WKexrNg1UZFhi5Jk/view?usp=sharing" id="abtbtnn">Download CV</a></button>
+                <div class="socials">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/aryan-thapa/"><img src="linkedin2.png" alt="" class="scimg"></a></li>
+                        <li><a href="https://github.com/Aryan-Thapa"><img src="github.png" alt="" class="ghimg"></a></li>
+                        <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Faryan_thapa_"><img src="twitter.png" alt="" class="twimg"></a></li>
+                    </ul>
                 </div>
-            </div>
-        </section>
-
-        <hr class="work">
-
-        <section class="worksection" id="works">
-            <h1 class="workhead">Work</h1>
-
-            <div class="workcont">
-                <div class="pastexp">
-                    <h2>Past Experience</h2>
-                    <div class="vertical">
-                        <div class="first">
-                            <div class="orgcont">
-                                <img src="celebal.png" alt="" class="orgimg">
-                            </div>
-                            <div class="horizontal"></div>
-                            <div class="desc">
-                                <p>Celebal Technologies</p>
-                                <p class="duration">June 2023-August 2023</p>
-                                <p>Data Science Intern</p>
-                            </div>
-                        </div>
-                        <div class="second">
-                            <div class="orgcont">
-                                <img src="humankind.jpg" alt="" class="orgimg">
-                            </div>
-                            <div class="horizontal"></div>
-                            <div class="desc">
-                                <p>Humankind NGO</p>
-                                <p class="duration">June 2021-July 2021</p>
-                                <p>Content Management Intern</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projects">
-                    <h2>Projects</h2>
-
-                    <div class="projectcontainer">
-                        <div class="pcontainer">
-                            <h4>Stock Price Prediction</h4>
-                            <div class="project"><a href="https://huggingface.co/spaces/aryan-thapa/Stock_Price_Prediction"><img src="stockprice.jpg" alt="" class="prjimg"></a></div>
-                            <div class="overlay">
-                                <span class="prjview">Click to view project</span>
-                                <button class="github"><a href="https://github.com/Aryan-Thapa/Stock-Price-Prediction">Github</a></button>
-                            </div>
-                        </div>
-                        <div class="pcontainer">
-                            <h4>Sorting Visualizer</h4>
-                            <div class="project"><a href="https://aryan-thapa.github.io/Sorting-Visualizer/"><img src="sorting.png" alt="" class="prjimg"></a></div>
-                            <div class="overlay">
-                                <span class="prjview">Click to view project</span>
-                                <button class="github"><a href="https://github.com/Aryan-Thapa/Sorting-Visualizer">Github</a></button>
-                            </div>
-                        </div>
-                        <div class="pcontainer">
-                            <h4>Personal Portfolio</h4>
-                            <div class="project"><a href="https://aryan-thapa.github.io/Portfolio/"><img src="Portfolio.jpg" alt="" class="prjimg"></a></div>
-                            <div class="overlay">
-                                <span class="prjview">Click to view project</span>
-                                <button class="github"><a href="https://github.com/Aryan-Thapa/Portfolio">Github</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr id="skills">
-
-        <section class="skillsection">
-            <h1 class="skillheading">Skills</h1>
-
-            <div class="skillcontainer">
-                <div class="languages">
-                    <h3>Programming Language</h3>
-                    <div class="imgcont">
-                        <img src="cpp.png" alt="" class="skillimg">
-                        <img src="js.png" alt="" class="skillimg">
-                        <img src="python.png" alt="" class="skillimg">
-                    </div>
-                </div>
+            </nav>
+        </header>
     
-                <div class="webdev">
-                    <h3>Web Development</h3>
-                    <div class="imgcont">
-                        <img src="htmlcssjs.png" alt="" class="htmlcssjs">
-                        <img src="tailwind.png" alt="" class="skillimg">
-                        <img src="react.png" alt="" class="skillimg">
-                    </div>
-                </div>
+        <main>
+            <section class="firstsection">
+                <div class="leftcont">
+                    Hi, My name is <span class="purple">Aryan Thapa</span>
+                    <div>and I am an </div>
+                    <span id="element"></span>
     
-                <div class="technical">
-                    <h3>Technical skills</h3>
-                    <div class="imgcont">
-                        <img src="DSA.png" alt="" class="tskillimg">
-                        <img src="sql.png" alt="" class="tskillimg">
-                        <img src="OOP.png" alt="" class="tskillimg">
+                    <div class="scroll">Scroll for more</div>
+                </div>
+                
+                <div class="rightcont">
+                    <img src="pfp.jpg" alt="" class="pfp">
+                </div>
+            </section>
+    
+            <hr id="abtme">
+    
+            <section class="secondsection">
+                <h1 id="abth">ABOUT ME</h1>
+    
+                <div class="aboutme">
+                    <div class="leftabt">
+                        <p>Greetings! I am a final year student pursuing Bachelor of Technology in Computer Science Engineering. My enthusiasm lies in utilizing my skills and knowledge to create inventive solutions for complex problems. Throughout my computer science journey, I've been actively involved in diverse projects, acquiring experience across various technologies and programming languages. The prospect of continuous learning and development is something that excites me as I set out on my career path in the tech industry.</p>
+    
+                        <button class="hire"><a href="https://www.linkedin.com/in/aryan-thapa/" id="hirebtn">Hire me</a></button>
+                    </div>
+    
+                    <div class="rightabt">
+                        <p>As a final year student in Bachelor of Technology in Computer Science Engineering, I have developed a strong foundation in several programming languages. I am proficient in C++ and have experience using these languages to develop and implement complex algorithms and data structures.</p>
+    
+                        <p>In addition to my programming skills, I am knowledgeable in web development technologies such as HTML, CSS, and JavaScript. I also have experience working with databases using MySQL.</p>
+    
+                        <p>My technical skills combined with my passion for problem-solving make me a valuable asset to any team. I am able to quickly learn new technologies and am always eager to take on new challenges. I am confident that I have the skills and the drive to succeed in the tech industry.</p>
+    
+                        <button class="abtbtn"><a href="https://drive.google.com/file/d/1-73TWTxHwVCcFWC2WKexrNg1UZFhi5Jk/view?usp=sharing" id="abtbtnn">Download CV</a></button>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <hr id="contact">
-
-        <section class="contactsection">
-            <h1 class="contactme">
-                Contact
-            </h1>
-
-            <div class="contactcont">
-                <div class="firstformcont">
-                    <h3 class="conthead">Say Hello!</h3>
-                    <p class="contbtn"><a href="mailto:aryanthapa219@gmail.com">Send Email</a></p>
+            </section>
+    
+            <hr class="work">
+    
+            <section class="worksection" id="works">
+                <h1 class="workhead">Work</h1>
+    
+                <div class="workcont">
+                    <div class="pastexp">
+                        <h2>Past Experience</h2>
+                        <div class="vertical">
+                            <div class="first">
+                                <div class="orgcont">
+                                    <img src="celebal.png" alt="" class="orgimg">
+                                </div>
+                                <div class="horizontal"></div>
+                                <div class="desc">
+                                    <p>Celebal Technologies</p>
+                                    <p class="duration">June 2023-August 2023</p>
+                                    <p>Data Science Intern</p>
+                                </div>
+                            </div>
+                            <div class="second">
+                                <div class="orgcont">
+                                    <img src="humankind.jpg" alt="" class="orgimg">
+                                </div>
+                                <div class="horizontal"></div>
+                                <div class="desc">
+                                    <p>Humankind NGO</p>
+                                    <p class="duration">June 2021-July 2021</p>
+                                    <p>Content Management Intern</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="projects">
+                        <h2 class="prjhead">Projects</h2>
+    
+                        <div class="projectcontainer">
+                            <div class="pcontainer">
+                                <h4>Stock Price Prediction</h4>
+                                <div class="project"><a href="https://huggingface.co/spaces/aryan-thapa/Stock_Price_Prediction"><img src="stockprice.jpg" alt="" class="prjimg"></a></div>
+                                <div class="overlay">
+                                    <span class="prjview">Click to view project</span>
+                                    <button class="github"><a href="https://github.com/Aryan-Thapa/Stock-Price-Prediction">Github</a></button>
+                                </div>
+                            </div>
+                            <div class="pcontainer">
+                                <h4>Sorting Visualizer</h4>
+                                <div class="project"><a href="https://aryan-thapa.github.io/Sorting-Visualizer/"><img src="sorting.png" alt="" class="prjimg"></a></div>
+                                <div class="overlay">
+                                    <span class="prjview">Click to view project</span>
+                                    <button class="github"><a href="https://github.com/Aryan-Thapa/Sorting-Visualizer">Github</a></button>
+                                </div>
+                            </div>
+                            <div class="pcontainer">
+                                <h4>Personal Portfolio</h4>
+                                <div class="project"><a href="https://aryan-thapa.github.io/Portfolio/"><img src="Portfolio.jpg" alt="" class="prjimg"></a></div>
+                                <div class="overlay">
+                                    <span class="prjview">Click to view project</span>
+                                    <button class="github"><a href="https://github.com/Aryan-Thapa/Portfolio">Github</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="form">
-                    <h3 class="formhead">Add a message</h3>
-                    <form action="mailto:aryanthapa219@gmail.com" method="post" enctype="text/plain" class="formcont">
-                        <p>Name:</p>
-                        <input type="text" name="name" placeholder="Enter your Name..." class="inputtext"><br>
-                        <p>Email:</p>
-                        <input type="text" name="mail" placeholder="Enter your Mail-ID" class="inputtext"><br>
-                        <p>Message:</p>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Type your message..."></textarea><br>
-                        <input type="submit" value="Send" class="formbtn">
-                        <input type="reset" value="Reset" class="formbtn">
-                    </form>
+            </section>
+    
+            <hr id="skills">
+    
+            <section class="skillsection">
+                <h1 class="skillheading">Skills</h1>
+    
+                <div class="skillcontainer">
+                    <div class="languages">
+                        <h3 class="skillhead">Programming Language</h3>
+                        <div class="imgcont">
+                            <img src="cpp.png" alt="" class="skillimg">
+                            <img src="js.png" alt="" class="skillimg">
+                            <img src="python.png" alt="" class="skillimg">
+                        </div>
+                    </div>
+        
+                    <div class="webdev">
+                        <h3 class="skillhead">Web Development</h3>
+                        <div class="imgcont">
+                            <img src="htmlcssjs.png" alt="" class="htmlcssjs">
+                            <img src="tailwind.png" alt="" class="skillimg">
+                            <img src="react.png" alt="" class="skillimg">
+                        </div>
+                    </div>
+        
+                    <div class="technical">
+                        <h3 class="skillhead">Technical skills</h3>
+                        <div class="imgcont">
+                            <img src="DSA.png" alt="" class="tskillimg">
+                            <img src="sql.png" alt="" class="tskillimg">
+                            <img src="OOP.png" alt="" class="tskillimg">
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="footersection">
-            <h5>© Aryan Thapa 2024</h5>
-        </section>
-
-    </main>
+            </section>
+    
+            <hr id="contact">
+    
+            <section class="contactsection">
+                <h1 class="contactme">
+                    Contact
+                </h1>
+    
+                <div class="contactcont">
+                    <div class="firstformcont">
+                        <h3 class="conthead">Say Hello!</h3>
+                        <p class="contbtn"><a href="mailto:aryanthapa219@gmail.com">Send Email</a></p>
+                    </div>
+    
+                    <div class="form">
+                        <h3 class="formhead">Add a message</h3>
+                        <form action="mailto:aryanthapa219@gmail.com" method="post" enctype="text/plain" class="formcont">
+                            <p>Name:</p>
+                            <input type="text" name="name" placeholder="Enter your Name..." class="inputtext"><br>
+                            <p>Email:</p>
+                            <input type="text" name="mail" placeholder="Enter your Mail-ID" class="inputtext"><br>
+                            <p>Message:</p>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Type your message..."></textarea><br>
+                            <input type="submit" value="Send" class="formbtn">
+                            <input type="reset" value="Reset" class="formbtn">
+                        </form>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="footersection">
+                <h5>© Aryan Thapa 2024</h5>
+            </section>
+    
+        </main>
+    </div>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="app.js"></script>
 </body>
