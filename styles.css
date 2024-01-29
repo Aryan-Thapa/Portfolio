@@ -8,7 +8,7 @@
     color: azure;
 }
 .container{
-    width:100vw;
+    /* width:100vw; */
     overflow-x: clip;
 }
 body{
