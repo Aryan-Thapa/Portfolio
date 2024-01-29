@@ -1,4 +1,4 @@
 var typed = new Typed('#element', {
-    strings: ['Problem Solver', 'Front End Developer','Aspiring Software Engineer'],
+    strings: ['a Problem Solver', 'a Front End Developer','an Aspiring Software Engineer'],
     typeSpeed: 50,
   });
